@@ -1,0 +1,70 @@
+# ===== Python virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Python cache / compiled =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Build / packaging =====
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ===== Test / type-check / lint cache =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Logs / runtime dumps =====
+*.log
+*.out
+*.err
+*.pid
+*.pid.lock
+
+# ===== IDE / editor =====
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.suo
+*.user
+*.userossc
+*.swp
+*.swo
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Local secrets / env files =====
+.env
+.env.*
+!.env.example
+
+# ===== Temporary files =====
+tmp/
+temp/
+*.tmp
+
+# ===== Data/model artifacts (按需开启) =====
+# 若你不想提交生成图表/中间产物，可取消注释下面规则
+# 03_goingon/**/plot/
+# 03_goingon/**/plot/tables/
